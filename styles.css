@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.layout{
+    width: 100%;
+    min-height: 100vh;
+    background: azure;
+}
+
+.layout .header{
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background: lightgray;
+}
+
+.layout .header .site-title{
+    font-weight: lighter;
+}
+
+.layout .header .create-report-btn{
+    background: lightblue;
+    padding: 5px;
+    border-color: lightblue;
+    border-radius: 3px;
+}
+
+.form-box{
+    box-sizing: border-box;
+    padding: 10px;
+    min-height: calc(100vh - 45px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.form-box .title{
+    text-align: center;
+    padding: 2px;
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.form-box .input{
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 2px;
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.form-box .btn{
+    border-radius: 3px;
+    border: 2px solid green;
+    background: green;
+    padding: 4px;
+    width: 200px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.form-box .btn:hover{
+    border: 2px solid darkgreen;
+    background: darkgreen;
+    transition: .2s all ease;
+}
+
+#report-class-container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+.report-box{
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 3px;
+}
+
+.report-box .title{
+    font-size: 12pt;
+}
+
+.report-box .description{
+    font-size: 10pt;
+}
